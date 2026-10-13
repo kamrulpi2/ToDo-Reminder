@@ -3,6 +3,10 @@
 Working examples and a full troubleshooting guide for the blue **M242-12864-4-V2.0** 2.42" OLED module (driver **SSD1309**, 4-pin I2C header: GND, VDD, SCL, SDA) with an **ESP32 DevKit V1**.
 
 <img width="798" height="906" alt="oled-preview (1)" src="https://github.com/user-attachments/assets/50e1c145-8eb2-40b8-bad0-be42e13e35dc" />
+<img width="2576" height="1940" alt="board-back" src="https://github.com/user-attachments/assets/2aab8e02-35bc-4d0d-91e7-e4da53df55f6" />
+<img width="798" height="906" alt="oled-preview" src="https://github.com/user-attachments/assets/af4b2dd6-ba6a-4fd0-b468-c00da386a6e9" />
+<img width="390" height="2648" alt="phone-app" src="https://github.com/user-attachments/assets/8fd3a12c-f71b-4fae-b6bc-29246a3834ef" />
+
 
 > **The #1 problem with this board:** the blank screen / `Nothing found` / wrong address `0x1A` on the I2C scanner.
 > **The fix:** short (bridge) the **D1** and **D2** diode pads on the back. See [docs/TROUBLESHOOTING.md](docs/TROUBLESHOOTING.md).
